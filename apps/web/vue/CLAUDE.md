@@ -85,10 +85,12 @@ import { ApiUpdateSchema, type ApiUpdate } from "@magic-agent/protocol";
 ### Code Style
 
 - 2-space indentation
-- Single quotes for strings
+- Double quotes for strings (enforced by `vp check` / oxlint)
 - Semicolons required
 - Vue Composition API (not Options API)
 - `<script setup>` syntax preferred
+
+> **Source of truth**: `vp check` / oxlint config is authoritative. This document is descriptive — if formatter behavior diverges from the guidance here, the formatter wins and this doc should be updated to match.
 
 ## Vite+ Migration Workarounds
 
@@ -96,7 +98,7 @@ This project uses **vite-plus** as a unified build and test toolchain, replacing
 
 ### Cloudflare Plugin Test Exclusion (temporary)
 
-The `cloudflare()` and `VitePWA()` plugins are **conditionally excluded during test runs** via an `isTest` check (`process.env['VITEST'] === 'true'`). These plugins set `resolve.external` which conflicts with vite-plus's integrated vitest runner. Without this exclusion, tests fail with module resolution errors.
+The `cloudflare()` and `VitePWA()` plugins are **conditionally excluded during test runs** via an `isTest` check (`process.env["VITEST"] === "true"`). These plugins set `resolve.external` which conflicts with vite-plus's integrated vitest runner. Without this exclusion, tests fail with module resolution errors.
 
 **When modifying `vite.config.ts`**: Any new plugin that sets `resolve.external` or assumes a Workers runtime must also be added to the `buildPlugins` conditional to avoid breaking tests.
 
@@ -109,11 +111,11 @@ The `manualChunks` config uses a **function**, not an object. Rolldown (vite-plu
 ```typescript
 // Correct (works with both Rolldown and Rollup)
 manualChunks(id: string) {
-  if (id.includes('node_modules/vue/')) return 'vue-vendor';
+  if (id.includes("node_modules/vue/")) return "vue-vendor";
 }
 
 // Incorrect (fails with Rolldown)
-manualChunks: { 'vue-vendor': ['vue'] }
+manualChunks: { "vue-vendor": ["vue"] }
 ```
 
 See `vite.config.ts` for full inline documentation of both workarounds (HAP-1082, HAP-1089).
