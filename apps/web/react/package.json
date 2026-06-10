@@ -158,7 +158,7 @@
     "react-native-purchases": "^10.2.0",
     "react-native-purchases-ui": "^10.2.0",
     "react-native-quick-base64": "^3.0.0",
-    "react-native-reanimated": "4.4.0",
+    "react-native-reanimated": "4.4.1",
     "react-native-safe-area-context": "~5.8.0",
     "react-native-screen-transitions": "^3.6.0",
     "react-native-screens": "~4.25.2",
