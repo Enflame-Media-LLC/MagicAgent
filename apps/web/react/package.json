@@ -174,7 +174,7 @@
     "react-syntax-highlighter": "^16.1.1",
     "react-textarea-autosize": "^8.5.9",
     "resolve-path": "^1.4.0",
-    "rn-encryption": "^3.0.7",
+    "rn-encryption": "^4.0.1",
     "twrnc": "^4.16.0",
     "uuid": "^14.0.0",
     "zod": "^4.4.3",
