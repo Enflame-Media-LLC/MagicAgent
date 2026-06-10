@@ -4458,7 +4458,7 @@ __metadata:
     "@types/upng-js": "npm:^2.1.5"
     cloudflare: "npm:^6.3.0"
     drizzle-kit: "npm:^1.0.0-rc.2"
-    drizzle-orm: "npm:^1.0.0-rc.2"
+    drizzle-orm: "npm:^1.0.0-rc.4-273829f"
     hono: "npm:^4.12.23"
     jose: "npm:^6.2.3"
     jpeg-js: "npm:^0.4.4"
@@ -14118,9 +14118,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"drizzle-orm@npm:^1.0.0-rc.2":
-  version: 1.0.0-rc.2-e38a2ba
-  resolution: "drizzle-orm@npm:1.0.0-rc.2-e38a2ba"
+"drizzle-orm@npm:^1.0.0-rc.4-273829f":
+  version: 1.0.0-rc.4-273829f
+  resolution: "drizzle-orm@npm:1.0.0-rc.4-273829f"
   peerDependencies:
     "@aws-sdk/client-rds-data": ">=3"
     "@cloudflare/workers-types": ">=4"
@@ -14234,7 +14234,7 @@ __metadata:
       optional: true
     zod:
       optional: true
-  checksum: 10c0/30d2c19f78603cc5c763bc6aa73fe71a291d536965afbdca17f1e36647048086068891c49425643476a936f48654699d935e6b30e13dd2af96394fe6eb5afc6d
+  checksum: 10c0/09251c3cd17a59b3d365588fd91ecfab1fbb6be3ab745f271a15003417a37e2d7320a761557879d6200f928d6899080d4e48dc7a266e33f8f79d80a824de54f8
   languageName: node
   linkType: hard
 
@@ -16814,7 +16814,7 @@ __metadata:
     "@hono/zod-openapi": "npm:^1.4.0"
     "@types/node": "npm:^25.9.1"
     better-auth: "npm:^1.6.14"
-    drizzle-orm: "npm:^1.0.0-rc.2"
+    drizzle-orm: "npm:^1.0.0-rc.4-273829f"
     hono: "npm:^4.12.23"
     oxlint: "npm:^1.68.0"
     typescript: "npm:^6.0.3"
@@ -16841,7 +16841,7 @@ __metadata:
     better-auth: "npm:^1.6.14"
     better-auth-cloudflare: "npm:0.3.0"
     chart.js: "npm:^4.5.1"
-    drizzle-orm: "npm:^1.0.0-rc.2"
+    drizzle-orm: "npm:^1.0.0-rc.4-273829f"
     happy-dom: "npm:^20.9.0"
     hono: "npm:^4.12.23"
     oxlint: "npm:^1.68.0"
@@ -19253,7 +19253,7 @@ __metadata:
   resolution: "magic-agent@workspace:."
   dependencies:
     drizzle-kit: "npm:^1.0.0-rc.2"
-    drizzle-orm: "npm:^1.0.0-rc.2"
+    drizzle-orm: "npm:^1.0.0-rc.4-273829f"
     tsx: "npm:^4.22.4"
     turbo: "npm:^2.9.16"
     vite-plus: "npm:^0.1.24"

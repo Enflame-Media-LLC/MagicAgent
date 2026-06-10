@@ -46,7 +46,7 @@
   },
   "devDependencies": {
     "drizzle-kit": "^1.0.0-rc.2",
-    "drizzle-orm": "^1.0.0-rc.2",
+    "drizzle-orm": "^1.0.0-rc.4-273829f",
     "tsx": "^4.22.4",
     "turbo": "^2.9.16",
     "vite-plus": "^0.1.24",
