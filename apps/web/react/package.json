@@ -42,7 +42,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.29.7",
-    "@config-plugins/react-native-webrtc": "^14.0.0",
+    "@config-plugins/react-native-webrtc": "^15.0.1",
     "@elevenlabs/react": "^1.6.4",
     "@elevenlabs/react-native": "^1.2.4",
     "@expo/ui": "56.0.16",
