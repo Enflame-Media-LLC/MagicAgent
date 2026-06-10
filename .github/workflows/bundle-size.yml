@@ -40,7 +40,7 @@ concurrency:
 jobs:
   bundle-size:
     name: Analyze Bundle Size
-    runs-on: ubuntu-latest
+    runs-on: blacksmith-4vcpu-ubuntu-2404
     timeout-minutes: 20
     # Run on PRs only (push to main handled by update-baseline job)
     if: github.event_name == 'pull_request'
@@ -191,7 +191,7 @@ jobs:
   # Job to update baseline on main branch merges
   update-baseline:
     name: Update Baseline
-    runs-on: ubuntu-latest
+    runs-on: blacksmith-4vcpu-ubuntu-2404
     timeout-minutes: 15
     if: github.event_name == 'push'
 

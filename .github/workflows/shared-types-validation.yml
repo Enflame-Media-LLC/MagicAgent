@@ -21,7 +21,7 @@ on:
 jobs:
   validate-shared-types:
     name: Validate Cross-Project Types
-    runs-on: ubuntu-latest
+    runs-on: blacksmith-4vcpu-ubuntu-2404
     timeout-minutes: 15
 
     steps:
