@@ -533,7 +533,7 @@ All TypeScript projects can consume shared packages:
 <!-- gitnexus:start -->
 # GitNexus — Code Intelligence
 
-This project is indexed by GitNexus as **Magic-Agent** (41451 symbols, 118925 relationships, 299 execution flows). Use the GitNexus MCP tools to understand code, assess impact, and navigate safely.
+This project is indexed by GitNexus as **Magic-Agent** (31530 symbols, 102281 relationships, 246 execution flows). Use the GitNexus MCP tools to understand code, assess impact, and navigate safely.
 
 > If any GitNexus tool warns the index is stale, run `npx gitnexus analyze` in terminal first.
 

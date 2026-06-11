@@ -4,7 +4,7 @@
 # The [assets] section enables SPA routing where unmatched routes
 # serve index.html for client-side routing to handle.
 
-compatibility_date = "2026-01-01"
+compatibility_date = "2026-06-01"
 compatibility_flags = ["nodejs_compat"]
 account_id = "81f483e6767ea3194467ecef42840f79"
 # Use minimal worker entry that only serves assets (not the Vue app entry)
@@ -22,11 +22,11 @@ not_found_handling = "single-page-application"
 # Development Environment
 #############################
 [env.development]
-name = "happy-vue-web-dev"
+name = "magicagent-vue-web-dev"
 workers_dev = false
 
 [[env.development.routes]]
-pattern = "app-dev.magicagent.app"
+pattern = "dev.magicagent.app"
 custom_domain = true
 
 [env.development.observability]
@@ -37,14 +37,14 @@ invocation_logs = true
 
 [env.development.vars]
 ENVIRONMENT = "development"
-BASE_URL = "https://app-dev.magicagent.app"
+BASE_URL = "https://dev.magicagent.app"
 API_BASE_URL = "https://api-dev.magicagent.app"
 
 #############################
 # Production Environment
 #############################
 [env.production]
-name = "happy-vue-web"
+name = "magicagent-vue-web"
 workers_dev = false
 
 [[env.production.routes]]
