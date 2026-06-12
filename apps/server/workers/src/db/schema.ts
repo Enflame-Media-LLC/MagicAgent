@@ -16,7 +16,8 @@
  * - Account.avatar field → REMOVED (frontend-only avatars)
  */
 
-import { defineRelations as relations, sql } from 'drizzle-orm';
+import { sql } from 'drizzle-orm';
+import { relations } from 'drizzle-orm/_relations';
 import {
     sqliteTable,
     text,
