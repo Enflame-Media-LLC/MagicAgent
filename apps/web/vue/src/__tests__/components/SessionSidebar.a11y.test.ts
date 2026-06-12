@@ -19,6 +19,12 @@ import { createPinia, setActivePinia } from "pinia";
 import SessionSidebar from "@/components/app/SessionSidebar.vue";
 import { checkComponentA11y } from "../helpers/a11y";
 
+vi.mock("@/components/app", () => ({
+  ConnectionStatus: {
+    template: '<div role="status">Connected</div>',
+  },
+}));
+
 // Mock composables
 vi.mock("@/composables/useDarkMode", () => ({
   useDarkMode: () => ({

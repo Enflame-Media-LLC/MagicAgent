@@ -15,6 +15,14 @@ import { expect } from "vite-plus/test";
 // Enables expect(results).toHaveNoViolations() in all tests
 expect.extend(matchers);
 
+// KaTeX warns in quirks mode; happy-dom starts without a doctype by default.
+if (!document.doctype) {
+  document.insertBefore(
+    document.implementation.createDocumentType("html", "", ""),
+    document.documentElement,
+  );
+}
+
 // Mock crypto.subtle for tests that require Web Crypto API
 // happy-dom doesn't provide a complete crypto.subtle implementation
 if (!globalThis.crypto?.subtle) {

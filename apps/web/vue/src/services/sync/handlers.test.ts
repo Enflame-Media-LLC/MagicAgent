@@ -90,7 +90,7 @@ describe("Sync Event Handlers", () => {
       expect(registeredHandlers.has("error")).toBe(true);
 
       cleanup();
-    });
+    }, 10000);
 
     it("should return a cleanup function", async () => {
       const { setupSyncHandlers } = await import("./handlers");

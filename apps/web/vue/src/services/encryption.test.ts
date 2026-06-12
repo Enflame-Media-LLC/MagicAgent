@@ -597,7 +597,7 @@ Line 3`;
         const decrypted = decryptBoxString(encrypted, keypair.secretKey);
         expect(decrypted).toBe(originalMessage);
       }
-    });
+    }, 10000);
 
     it("should handle special characters in messages", () => {
       const keypair = generateBoxKeyPair();

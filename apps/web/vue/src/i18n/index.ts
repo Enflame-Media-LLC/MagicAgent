@@ -210,6 +210,7 @@ export function getLanguageInfo(code: SupportedLanguage): LanguageInfo {
  * Messages are typed with MessageSchema for type-safe translations.
  */
 export const i18n = createI18n({
+  legacy: false,
   locale: getInitialLocale(),
   fallbackLocale: DEFAULT_LANGUAGE,
   messages: {
