@@ -86,13 +86,8 @@
     "@stablelib/base64": "^2.0.1",
     "@stablelib/hex": "^2.0.1",
     "cloudflare": "^6.3.0",
-<<<<<<< Updated upstream
-    "drizzle-orm": "^1.0.0-rc.4-273829f",
-    "hono": "^4.12.23",
-=======
     "drizzle-orm": "^1.0.0-rc.2",
     "hono": "^4.12.25",
->>>>>>> Stashed changes
     "jose": "^6.2.3",
     "jpeg-js": "^0.4.4",
     "thumbhash": "^0.1.1",
