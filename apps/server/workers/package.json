@@ -69,7 +69,7 @@
     "@types/node": "^25.9.2",
     "@types/semver": "^7.7.1",
     "@types/upng-js": "^2.1.5",
-    "drizzle-kit": "^1.0.0-rc.2",
+    "drizzle-kit": "^1.0.0-rc.4-273829f",
     "knip": "^6.16.1",
     "oxlint": "^1.69.0",
     "oxlint-tsgolint": "^0.23.0",
