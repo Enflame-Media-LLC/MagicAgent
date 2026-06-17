@@ -4714,7 +4714,7 @@ __metadata:
     "@types/semver": "npm:^7.7.1"
     "@types/upng-js": "npm:^2.1.5"
     cloudflare: "npm:^6.3.0"
-    drizzle-kit: "npm:^1.0.0-rc.2"
+    drizzle-kit: "npm:^1.0.0-rc.4-273829f"
     drizzle-orm: "npm:^1.0.0-rc.4-273829f"
     hono: "npm:^4.12.25"
     jose: "npm:^6.2.3"
@@ -14397,9 +14397,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"drizzle-kit@npm:^1.0.0-rc.2, drizzle-kit@npm:^1.0.0-rc.4":
-  version: 1.0.0-rc.4-ca0f029
-  resolution: "drizzle-kit@npm:1.0.0-rc.4-ca0f029"
+"drizzle-kit@npm:^1.0.0-rc.4-273829f":
+  version: 1.0.0-rc.4-273829f
+  resolution: "drizzle-kit@npm:1.0.0-rc.4-273829f"
   dependencies:
     "@drizzle-team/brocli": "npm:^0.11.0"
     "@js-temporal/polyfill": "npm:^0.5.1"
@@ -14408,7 +14408,7 @@ __metadata:
     jiti: "npm:^2.6.1"
   bin:
     drizzle-kit: bin.cjs
-  checksum: 10c0/1196993b1043120f0a6ca7632b0c6b457e247e6fa784fd8318cd7a0cc952f2ab0efa3a2adccf3ad482a470410c723fba2eadbd6961f6424e386747f80a5aab7d
+  checksum: 10c0/bd6ccedd4156fc021c0a70cf91e00de3e98871d893d609a66c40b2d54b4fc114e54f4f2ce140537b3d184d3671ff06a7451a0e235a722b9c861be2d89b5bd6a7
   languageName: node
   linkType: hard
 
@@ -19723,7 +19723,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "magic-agent@workspace:."
   dependencies:
-    drizzle-kit: "npm:^1.0.0-rc.4"
+    drizzle-kit: "npm:^1.0.0-rc.4-273829f"
     drizzle-orm: "npm:^1.0.0-rc.4"
     tsx: "npm:^4.22.4"
     turbo: "npm:^2.9.17"
