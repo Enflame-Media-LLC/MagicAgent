@@ -14507,126 +14507,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"drizzle-orm@npm:^1.0.0-rc.4":
-  version: 1.0.0-rc.4-5d5b77c
-  resolution: "drizzle-orm@npm:1.0.0-rc.4-5d5b77c"
-  peerDependencies:
-    "@aws-sdk/client-rds-data": ">=3"
-    "@cloudflare/workers-types": ">=4"
-    "@effect/sql-pg": ">=4.0.0-beta.58 || >=4.0.0"
-    "@electric-sql/pglite": ">=0.2.0"
-    "@libsql/client": ">=0.10.0"
-    "@libsql/client-wasm": ">=0.10.0"
-    "@neondatabase/serverless": ">=0.10.0"
-    "@op-engineering/op-sqlite": ">=2"
-    "@opentelemetry/api": ^1.4.1
-    "@planetscale/database": ">=1.13"
-    "@sinclair/typebox": ">=0.34.8"
-    "@sqlitecloud/drivers": ">=1.0.653"
-    "@tidbcloud/serverless": "*"
-    "@tursodatabase/database": ">=0.2.1"
-    "@tursodatabase/database-common": ">=0.2.1"
-    "@tursodatabase/database-wasm": ">=0.2.1"
-    "@types/better-sqlite3": "*"
-    "@types/mssql": ^9.1.4
-    "@types/pg": "*"
-    "@types/sql.js": "*"
-    "@upstash/redis": ">=1.34.7"
-    "@vercel/postgres": ">=0.8.0"
-    "@xata.io/client": "*"
-    arktype: ">=2.0.0"
-    better-sqlite3: ">=9.3.0"
-    bun-types: "*"
-    effect: ">=4.0.0-beta.58 || >=4.0.0"
-    expo-sqlite: ">=14.0.0"
-    mssql: ^11.0.1
-    mysql2: ">=2"
-    pg: ">=8"
-    postgres: ">=3"
-    sql.js: ">=1"
-    sqlite3: ">=5"
-    typebox: ">=1.0.0"
-    valibot: ">=1.0.0-beta.7"
-    zod: ^3.25.0 || ^4.0.0
-  peerDependenciesMeta:
-    "@aws-sdk/client-rds-data":
-      optional: true
-    "@cloudflare/workers-types":
-      optional: true
-    "@effect/sql-pg":
-      optional: true
-    "@electric-sql/pglite":
-      optional: true
-    "@libsql/client":
-      optional: true
-    "@libsql/client-wasm":
-      optional: true
-    "@neondatabase/serverless":
-      optional: true
-    "@op-engineering/op-sqlite":
-      optional: true
-    "@opentelemetry/api":
-      optional: true
-    "@planetscale/database":
-      optional: true
-    "@sinclair/typebox":
-      optional: true
-    "@sqlitecloud/drivers":
-      optional: true
-    "@tidbcloud/serverless":
-      optional: true
-    "@tursodatabase/database":
-      optional: true
-    "@tursodatabase/database-common":
-      optional: true
-    "@tursodatabase/database-wasm":
-      optional: true
-    "@types/better-sqlite3":
-      optional: true
-    "@types/mssql":
-      optional: true
-    "@types/pg":
-      optional: true
-    "@types/sql.js":
-      optional: true
-    "@upstash/redis":
-      optional: true
-    "@vercel/postgres":
-      optional: true
-    "@xata.io/client":
-      optional: true
-    arktype:
-      optional: true
-    better-sqlite3:
-      optional: true
-    bun-types:
-      optional: true
-    effect:
-      optional: true
-    expo-sqlite:
-      optional: true
-    mssql:
-      optional: true
-    mysql2:
-      optional: true
-    pg:
-      optional: true
-    postgres:
-      optional: true
-    sql.js:
-      optional: true
-    sqlite3:
-      optional: true
-    typebox:
-      optional: true
-    valibot:
-      optional: true
-    zod:
-      optional: true
-  checksum: 10c0/0f1007ad093c7d4cfdc91cc38eacc01d6f6fc249c9a44a036da886ec1c8e504b2547231ca3498c939b021961af9cebba02d5c5ec3adfbbc447b80b7341ec6e18
-  languageName: node
-  linkType: hard
-
 "drizzle-orm@npm:^1.0.0-rc.4-273829f":
   version: 1.0.0-rc.4-273829f
   resolution: "drizzle-orm@npm:1.0.0-rc.4-273829f"
@@ -19724,7 +19604,7 @@ __metadata:
   resolution: "magic-agent@workspace:."
   dependencies:
     drizzle-kit: "npm:^1.0.0-rc.4"
-    drizzle-orm: "npm:^1.0.0-rc.4"
+    drizzle-orm: "npm:^1.0.0-rc.4-273829f"
     tsx: "npm:^4.22.4"
     turbo: "npm:^2.9.17"
     vite-plus: "npm:^0.1.24"
