@@ -2,7 +2,7 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 9
+  version: 10
   cacheKey: 10c0
 
 "@cloudflare/kv-asset-handler@npm:0.5.0":
@@ -72,10 +72,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cloudflare/workers-types@npm:^4.20260605.1":
-  version: 4.20260605.1
-  resolution: "@cloudflare/workers-types@npm:4.20260605.1"
-  checksum: 10c0/ac2e558452ab9247152bed038f92f45afb6d75c4035bdfabb4571356cddd14bb99439feeac6ea3beff3b8da9de1a29339c451cee2c64dd692461d859320eec39
+"@cloudflare/workers-types@npm:^4.20260623.1":
+  version: 4.20260623.1
+  resolution: "@cloudflare/workers-types@npm:4.20260623.1"
+  checksum: 10c0/efa544e34bbd236ba8f8deaca1db855063fbd5dde7ffa350e9c62535482f1bf6e23c78b90db70451fee44a5576d8dfc5764f821148883041f4e8465c5ad7a6aa
   languageName: node
   linkType: hard
 
@@ -1249,7 +1249,7 @@ __metadata:
   resolution: "happy-pwa-screenshots@workspace:."
   dependencies:
     "@cloudflare/puppeteer": "npm:^1.1.0"
-    "@cloudflare/workers-types": "npm:^4.20260605.1"
+    "@cloudflare/workers-types": "npm:^4.20260623.1"
     typescript: "npm:^6.0.3"
     wrangler: "npm:^4.97.0"
   languageName: unknown
