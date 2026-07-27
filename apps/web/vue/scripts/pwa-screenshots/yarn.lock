@@ -2,7 +2,7 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 9
+  version: 10
   cacheKey: 10c0
 
 "@cloudflare/kv-asset-handler@npm:0.5.0":
@@ -12,15 +12,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cloudflare/puppeteer@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "@cloudflare/puppeteer@npm:1.1.0"
+"@cloudflare/puppeteer@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "@cloudflare/puppeteer@npm:1.2.0"
   dependencies:
     "@puppeteer/browsers": "npm:2.2.4"
     debug: "npm:^4.3.5"
     devtools-protocol: "npm:0.0.1299070"
     ws: "npm:^8.18.0"
-  checksum: 10c0/d71ea57a44560439aa96e82d0e42b58ca799dbda39da6e56fb77ce86f3834633677541788513627fe31e1e110cd1810dd7f264b1d78d41f291a21b2e9fcc9ba7
+  checksum: 10c0/dabf22857ffa9d1d165cf7a6b948e3aa89e0a96499b90a64a6ad3c4665dab3f653a1d58657e19c14255a53df678ffcb737493ae5f047c19b6c6124e90cb8e59d
   languageName: node
   linkType: hard
 
@@ -1248,7 +1248,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "happy-pwa-screenshots@workspace:."
   dependencies:
-    "@cloudflare/puppeteer": "npm:^1.1.0"
+    "@cloudflare/puppeteer": "npm:^1.2.0"
     "@cloudflare/workers-types": "npm:^4.20260605.1"
     typescript: "npm:^6.0.3"
     wrangler: "npm:^4.97.0"
