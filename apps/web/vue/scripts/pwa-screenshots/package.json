@@ -15,7 +15,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@cloudflare/puppeteer": "^1.1.0"
+    "@cloudflare/puppeteer": "^1.2.0"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20260605.1",
