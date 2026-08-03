@@ -63,7 +63,7 @@
     "elevenlabs": "^1.59.0",
     "fastify": "^5.8.5",
     "fastify-type-provider-zod": "^6.1.0",
-    "ioredis": "^5.11.1",
+    "ioredis": "^6.0.0",
     "jsonwebtoken": "^9.0.3",
     "minio": "^8.0.7",
     "octokit": "^5.0.5",
