@@ -37,16 +37,16 @@
     "@cloudflare/workers-types": "^4.20260610.1",
     "@happy/lint-rules": "workspace:*",
     "@types/node": "^25.9.2",
-    "oxlint": "^1.69.0",
+    "oxlint": "^1.77.0",
     "typescript": "^6.0.3",
-    "wrangler": "^4.99.0"
+    "wrangler": "^4.120.0"
   },
   "dependencies": {
     "@hono/swagger-ui": "^0.6.1",
-    "@hono/zod-openapi": "^1.4.0",
-    "better-auth": "^1.6.16",
+    "@hono/zod-openapi": "^1.5.2",
+    "better-auth": "^1.6.26",
     "drizzle-orm": "^1.0.0-rc.4-273829f",
-    "hono": "^4.12.25",
+    "hono": "^4.13.1",
     "zod": "^4.4.3"
   }
 }
